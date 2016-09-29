@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.darebeat</groupId>
+  <artifactId>java-study-demo</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>java-study-demo</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- xml -->
+    <dependency>
+      <groupId>org.codehaus.castor</groupId>
+      <artifactId>castor</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>xerces</groupId>
+      <artifactId>xercesImpl</artifactId>
+      <version>2.8.1</version>
+    </dependency>
+
+    <!-- gson -->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+    </dependency>
+
+    <!-- pdf -->
+    <dependency>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>itextpdf</artifactId>
+      <version>5.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.itextpdf.tool</groupId>
+      <artifactId>xmlworker</artifactId>
+      <version>5.4.1</version>
+    </dependency>
+  </dependencies>
+</project>
