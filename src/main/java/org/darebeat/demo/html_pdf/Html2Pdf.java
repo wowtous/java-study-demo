@@ -18,7 +18,7 @@ public class Html2Pdf {
         Document doc = new Document();
 
         try {
-            PdfWriter writer = PdfWriter.getInstance(doc,new FileOutputStream("data/Html2Pdf.pdf"));
+            PdfWriter writer = PdfWriter.getInstance(doc,new FileOutputStream("data/tmp/Html2Pdf.pdf"));
             doc.open();
             XMLWorkerHelper.getInstance().parseXHtml(writer,doc,new FileInputStream("data/html/index.html"));
             doc.close();

@@ -17,7 +17,7 @@ public class App {
         doc.setPageSize(PageSize.A4);
 
         try {
-            PdfWriter writer = PdfWriter.getInstance(doc,new FileOutputStream("data/pdf_table.pdf"));
+            PdfWriter writer = PdfWriter.getInstance(doc,new FileOutputStream("data/tmp/pdf_table.pdf"));
             doc.open();
             doc.add(TableBuilder.createTable());
             doc.close();

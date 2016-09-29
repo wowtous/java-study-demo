@@ -22,7 +22,7 @@ public class PageSettints {
             //Rectangle pagesize = new Rectangle(216f, 720f);
 
             // 2. get PdfWriter
-            PdfWriter.getInstance(doc,new FileOutputStream("data/pagesettings.pdf"));
+            PdfWriter.getInstance(doc,new FileOutputStream("data/tmp/pagesettings.pdf"));
 
             // 3. open the document
             doc.open();

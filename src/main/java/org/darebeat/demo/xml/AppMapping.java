@@ -13,6 +13,8 @@ import java.io.*;
  */
 public class AppMapping {
     public static void main(String[] args) {
+        String filepath = "data/tmp/mapped_article.xml";
+
         try {
             //Load Mapping
             Mapping mapping = new Mapping();
@@ -23,7 +25,7 @@ public class AppMapping {
             //( 1 ) OBJECT --> XML
 
             //1.1 Prepare file writer
-            Writer writer = new FileWriter("data/mapped_article.xml");
+            Writer writer = new FileWriter(filepath);
 
             //1.2 Create a new Marshaller
             Marshaller marshaller = context.createMarshaller();
@@ -39,7 +41,7 @@ public class AppMapping {
             //( 2 ) XML --> OBJECT
 
             //2.1 Prepare file writer
-            Reader reader = new FileReader("data/mapped_article.xml");
+            Reader reader = new FileReader(filepath);
 
             //2.2 Create a new Unmarshaller
             Unmarshaller unmarshaller = context.createUnmarshaller();

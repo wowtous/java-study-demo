@@ -9,11 +9,11 @@ public class InitData {
     public static Article createArticle(){
         Article article = new Article();
 
-        article.setTitle("Castor - Java Object to XML & XML to Object Mapping");
-        article.setUrl("http://hmkcode.com/castor-java-object-xml");
+        article.setTitle("Java Object2XML & XML2Object Mapping");
+        article.setUrl("https://github.com/wowtous/java-study-demo.git");
         article.addCategory("Java");
         article.addTag("Java");
-        article.addTag("Castor");
+        article.addTag("JSON");
         article.addTag("XML");
         article.addTag("Marshalling");
         article.addTag("Unmarshalling");

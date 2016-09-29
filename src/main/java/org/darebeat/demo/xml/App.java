@@ -16,21 +16,18 @@ import java.io.IOException;
  */
 public class App {
     public static void main(String[] args) {
+        String filepath = "data/tmp/article.xml";
         try {
-
             //( 1 ) OBJECT --> XML
-            FileWriter writer = new FileWriter("data/article.xml");
+            FileWriter writer = new FileWriter(filepath);
             Marshaller.marshal(InitData.createArticle(), writer);
             writer.close();
 
-
             //( 2 ) XML --> OBJECT
-            FileReader reader = new FileReader("data/article.xml");
+            FileReader reader = new FileReader(filepath);
             Article article = (Article) Unmarshaller.unmarshal(Article.class, reader);
 
             System.out.println(article);
-
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (MarshalException e) {

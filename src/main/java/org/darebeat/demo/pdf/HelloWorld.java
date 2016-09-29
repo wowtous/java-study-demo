@@ -19,7 +19,7 @@ public class HelloWorld {
             Document doc = new Document();
 
             // 2. get PdfWriter
-            PdfWriter.getInstance(doc,new FileOutputStream("data/helloworld.pdf"));
+            PdfWriter.getInstance(doc,new FileOutputStream("data/tmp/helloworld.pdf"));
 
             // 3. open the document
             doc.open();
