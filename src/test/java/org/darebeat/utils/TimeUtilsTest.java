@@ -99,7 +99,7 @@ public class TimeUtilsTest {
 
     @Test
     public void testGetIntervalByNow() throws Exception {
-
+        getIntervalByNow(string2Date(timeString), ConstUtils.TimeUnit.HOUR);
     }
 
     @Test
