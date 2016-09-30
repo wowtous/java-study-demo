@@ -6,7 +6,7 @@ package org.darebeat.utils;
  */
 public class ConstUtils {
     private ConstUtils() {
-        throw new UnsupportedOperationException("u can't instantiate me...");
+        throw new UnsupportedOperationException("You can't instantiate ConstUtils ...");
     }
 
     /******************** 存储相关常量 ********************/
