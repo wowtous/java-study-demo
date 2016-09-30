@@ -1,7 +1,7 @@
 package org.darebeat.demo.xml;
 
 import org.darebeat.model.Article;
-import org.darebeat.utils.InitData;
+import org.darebeat.common.InitData;
 import org.exolab.castor.mapping.Mapping;
 import org.exolab.castor.mapping.MappingException;
 import org.exolab.castor.xml.*;

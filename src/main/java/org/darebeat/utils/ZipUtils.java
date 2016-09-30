@@ -7,7 +7,7 @@ import java.util.zip.ZipInputStream;
 /**
  * Created by darebeat on 9/30/16.
  */
-public class Unzip {
+public class ZipUtils {
     public static void unzip(String zipfile,String outputPath){
         if (outputPath == null){
             outputPath = "";
@@ -23,7 +23,7 @@ public class Unzip {
         }
         outputDirectory.mkdir();
 
-        // 2.0 Unzip (create folders & copy files)
+        // 2.0 ZipUtils (create folders & copy files)
         try {
             // 2.1 Get zip input stream
             ZipInputStream zip = new ZipInputStream(new FileInputStream(zipfile));

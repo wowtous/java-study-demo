@@ -1,7 +1,7 @@
 package org.darebeat.demo.xml;
 
 import org.darebeat.model.Article;
-import org.darebeat.utils.InitData;
+import org.darebeat.common.InitData;
 import org.exolab.castor.xml.MarshalException;
 import org.exolab.castor.xml.Marshaller;
 import org.exolab.castor.xml.Unmarshaller;

@@ -2,7 +2,7 @@ package org.darebeat.demo.gson;
 
 import com.google.gson.Gson;
 import org.darebeat.model.Article;
-import org.darebeat.utils.InitData;
+import org.darebeat.common.InitData;
 
 import java.util.LinkedList;
 import java.util.List;

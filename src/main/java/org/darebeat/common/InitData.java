@@ -1,4 +1,4 @@
-package org.darebeat.utils;
+package org.darebeat.common;
 
 import org.darebeat.model.Article;
 
